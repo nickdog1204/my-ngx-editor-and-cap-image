@@ -1,0 +1,19 @@
+doctype html
+ion-content
+  swiper([config]='opts')
+    ng-template(swiperSlide)
+      .swiper-zoom-container
+        img([src]='sanitizer.bypassSecurityTrustResourceUrl(photo.webviewPath)')
+
+ion-footer
+  ion-row.ion-justify-content-center
+    ion-col(size='4')
+      ion-button(fill="clear", color='danger', (click)="deleteAsync()")
+        ion-icon(name='trash-bin', slot='start')
+        | 刪除
+    ion-col(size='4')
+      ion-button(fill="clear", color='light', (click)="closeIt()")
+        ion-icon(name='close', slot='start')
+        | 關閉
+
+

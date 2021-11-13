@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MyQuill</string>
+    <string name="title_activity_main">MyQuill</string>
+    <string name="package_name">com.ipointsoftware.nick1204.myQuill</string>
+    <string name="custom_url_scheme">com.ipointsoftware.nick1204.myQuill</string>
+</resources>

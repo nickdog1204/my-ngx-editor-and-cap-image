@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import {QuillModule} from "ngx-quill";
+import {NgxEditorModule} from "ngx-editor";
 
 
 @NgModule({
@@ -12,6 +14,8 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
+    QuillModule,
+    NgxEditorModule,
     HomePageRoutingModule
   ],
   declarations: [HomePage]

@@ -1,0 +1,9 @@
+doctype html
+ion-tabs(#tabs, (ionTabsDidChange)="tabSelected()" )
+  ion-tab-bar(slot='bottom')
+    ion-tab-button(tab='recent')
+      ion-icon([name]=' selectedTab === "recent" ? "images": "images-outline"')
+      ion-label 最近
+    ion-tab-button(tab='albums')
+      ion-icon([name]=' selectedTab === "albums" ? "albums": "albums-outline"')
+      ion-label 相簿

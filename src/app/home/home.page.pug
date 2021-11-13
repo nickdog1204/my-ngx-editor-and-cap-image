@@ -1,0 +1,7 @@
+doctype html
+ion-content
+  ngx-editor([editor]='editor' , [(ngModel)]='html', outputFormat="html")
+    ngx-editor-menu([editor]="editor")
+  ion-button((click)='btnClicked()', expand="full") 按我
+
+
