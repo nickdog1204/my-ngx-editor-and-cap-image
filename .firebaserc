@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ionic-academy-chat-course": {
+      "hosting": {
+        "app": [
+          "ionic-academy-chat-course"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ionic-academy-chat-course"
+  }
+}
